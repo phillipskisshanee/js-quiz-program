@@ -34,4 +34,19 @@ if ( answer5.toUpperCase() === 'QUESTIONABLE' ) {
 
 // output results
 if (correct === 0)
-document.write("<p>" Congrats! If you believed Frank was going to grace us with new music, you played yourself. "</p>");
+document.write("<p> Congrats! If you believed Frank was going to grace us with new music, you played yourself. </p>");
+
+if (correct === 1)
+document.write("<p> Congrats! If you believed Frank was going to grace us with new music, you played yourself. </p>");
+
+if (correct === 2)
+document.write("<p> Congrats! If you believed Frank was going to grace us with new music, you played yourself. </p>");
+
+if (correct === 3)
+document.write("<p> Congrats! If you believed Frank was going to grace us with new music, you played yourself. </p>");
+
+if (correct === 4)
+document.write("<p> Congrats! If you believed Frank was going to grace us with new music, you played yourself. </p>");
+
+if (correct === 5)
+document.write("<p> Congrats! If you believed Frank was going to grace us with new music, you played yourself. </p>");
