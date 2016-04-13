@@ -9,23 +9,23 @@ var answer4 = prompt("Has Frank forgotten about us?");
 var answer5 = prompt("Is Frank Ocean still alive?");
 
 // if statement
-if ( answer1.toUpperCase() === 'never' ) {
+if ( answer1.toUpperCase() === 'NEVER' ) {
  correct += 1;
 }
 
-if ( answer2.toUpperCase() === 'nope' ) {
+if ( answer2.toUpperCase() === 'NOPE' ) {
  correct += 1;
 }
 
-if ( answer3.toUpperCase() === 'too many' ) {
+if ( answer3.toUpperCase() === 'TOO MANY' ) {
  correct += 1;
 }
 
-if ( answer4.toUpperCase() === 'definitely' ) {
+if ( answer4.toUpperCase() === 'DEFINITELY' ) {
  correct += 1;
 }
 
-if ( answer5.toUpperCase() === 'questionable' ) {
+if ( answer5.toUpperCase() === 'QUESTIONABLE' ) {
  correct += 1;
 }
 
@@ -33,4 +33,5 @@ if ( answer5.toUpperCase() === 'questionable' ) {
 
 
 // output results
+if (correct === 0)
 document.write("<p>" Congrats! If you believed Frank was going to grace us with new music, you played yourself. "</p>");
